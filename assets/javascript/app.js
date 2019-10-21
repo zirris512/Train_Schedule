@@ -71,4 +71,13 @@ database.ref().on("child_added", function(childSnapshot) {
     var nextTrain = moment().add(remainingTime, "minutes");
     console.log("Next train: " + moment(nextTrain).format("HH:mm"));
 
+    var newRow = $("<tr>").append(
+        $("<td>").text(name),
+        $("<td>").text(place),
+        $("<td>").text(frequency),
+        $("<td>").text(moment(nextTrain).format("HH:mm")),
+        $("<td>").text(remainingTime)
+    );
+
+    $("#train-schedule").append(newRow);
 })
