@@ -11,6 +11,10 @@ A small project where the user could enter values into a form and update the tab
 * Moment.js
 * Firebase
 
+## Links
+
+Deployed Page - [https://zirris512.github.io/Train_Schedule/](https://zirris512.github.io/Train_Schedule/)
+
 ## Screenshots
 
 ![Train](/assets/css/images/Train_Schedule.png)
